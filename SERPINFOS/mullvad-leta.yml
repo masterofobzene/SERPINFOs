@@ -8,10 +8,10 @@ pages:
       - https://leta.mullvad.net/search?*
     userAgent: desktop
     results:
-      - root: h1
+      - root: article.svelte-fmlk7p
         url: [attribute, "href", "a"]
         props:
-          title: a
+          title: h3
     commonProps:
       $site: leta
       $category: web
@@ -21,10 +21,10 @@ pages:
       - https://leta.mullvad.net/search?*
     userAgent: mobile
     results:
-      - root: h1
+      - root: article.svelte-fmlk7p
         url: [attribute, "href", "a"]
         props:
-          title: a
+          title: h3
     commonProps:
       $site: leta
       $category: web
