@@ -1,0 +1,18 @@
+name: 4get
+version: 1.0.0
+homepage: https://4get.aishiteiru.moe/
+lastModified: 2026-04-09T00:00:00Z
+
+pages:
+  - name: web
+    matches:
+      - https://4get.aishiteiru.moe/web?*
+    results:
+      - root: .text-result
+        url: a.hover
+        props:
+          title: .title
+
+    commonProps:
+      $site: 4get
+      $category: web
