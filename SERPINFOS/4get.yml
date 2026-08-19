@@ -1,12 +1,12 @@
 name: 4get
 version: 1.0.0
-homepage: https://4get.aishiteiru.moe/
+homepage: https://4get.sudovanilla.org/
 lastModified: 2026-04-09T00:00:00Z
 
 pages:
   - name: web
     matches:
-      - https://4get.aishiteiru.moe/web?*
+      - https://4get.sudovanilla.org/web?*
     results:
       - root: .text-result
         url: a.hover
